@@ -1,5 +1,5 @@
 // Prendo l'icona del menu/hamburger
-var menu = $('.fas.fa-bars');
+var menu = $('.header-right > a');
 
 // // Prendo la lista del menu
 var list = $('.hamburger-menu');
@@ -11,7 +11,7 @@ menu.click(function () {
 });
 
 // // Prendo x per chiudere il menu
-var close = $('.fas.fa-times');
+var close = $('a.close');
 
 // Click al icona x
 close.click(function () {
